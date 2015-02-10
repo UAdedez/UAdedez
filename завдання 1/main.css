@@ -1,10 +1,10 @@
 
 *{
-	margin:0px;
+	margin:0px auto;
 	padding:0px;
 	max-width: 1920px;
 }
-body{background: rgb(0, 0, 0)}
+body{background: rgb(230, 230, 230)}
 @font-face{
 	font-family: Socialico;
 	src: url(font/Socialico.ttf);
@@ -20,6 +20,7 @@ body{background: rgb(0, 0, 0)}
 	height:800px;
 	background-image: url(img/header.jpg);
     background-repeat: no-repeat;
+    background-position:center;
     font-family: "Roboto";
 }
 li span{
@@ -49,16 +50,13 @@ li span{
     width:100%;
     margin-top:12em;
 }
-
 .Creating_realistic { /**Creating_realistic**/
 	float:Left;
 	font-size: 24px;
 	background: rgba(0,0,0,0);	
 	font-size: 24px;
 	color: rgb(255, 255, 255);
-	
 }
- 
 .workshop{/**workshop**/
 	font-size: 60px;
 	color: rgb(255, 255, 255);
@@ -68,7 +66,6 @@ li span{
 	float:left;
 	margin-top:18px;
 }
-
 .header-button{/**menu**/
 	list-style-type: none;
 	float: right;
@@ -84,18 +81,16 @@ li span{
 .header-button .home {
 	color: rgba(255, 255, 255, 0.5);
 	}
-li a{	text-decoration:none;
+li a{text-decoration:none;
 	font-size: 14px;
 	color: rgba(255, 255, 255, 1);
 	margin:10px;
 	}
-
 .header-but-block{
 	float:left;
 	width:100%;
 	margin-top:1em;
 }
-	
 .button{
 	float:left;
 	display:block;
@@ -109,21 +104,17 @@ li a{	text-decoration:none;
 	border: 2px solid;
 	border-radius: 5px;
 	transition: .5s;
-	margin-right:20px;
+
 }
 .button.default:hover{ background: rgba(255,255,255,.2);} 
-.button.red{background-color: rgb(233, 33, 33); border: 2px solid rgb(233, 33, 33);}
+.button.red{    margin-right:20px; background-color: rgb(233, 33, 33); border: 2px solid rgb(233, 33, 33);}
 .button.red:hover{ background: rgba(255,33,33,.2);}
-
-
 /**---ABOUT---**/
 .about {
 	width:100%;
 	height:587px;
-	background: #999;
-	font-size: 18px;
-	margin-bottom: 1px;
-	
+	background: #ffffff;
+	font-size: 18px;	
 }
 .about-mid {
 	display: inline-block;
@@ -135,40 +126,116 @@ li a{	text-decoration:none;
 .about-header{
     display: inline-block;
     float:left;
-    width:50%;
-    height:100%;
-    line-height:100%
-    }
-    .ourih{
-    width:100%;
-    height:500px;
-    
+    width:40%;
+    height:50%;
     text-align: left;
     vertical-align: middle;
-    display: inline-block;
-
-    line-height: 50px;
-    padding: 15px;
-    
-    float:left;
+    line-height: 1.25;
+    padding-top: 25%;
     font-size: 48px;
     font-family: "Roboto";
     color: rgb(70, 70, 70);
     font-weight: bold;
     text-transform: uppercase;
-
     }
-.about-top{
+.about-cont{
     display: inline-block;
     float:right;
     width:50%;
-    height:50%;
+    height:168px;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(183, 183, 183);
+    line-height: 1.875;
+    text-align: justify;
+    overflow: auto;
 }
-.about-bot{
+.about-cont.one{
+    margin-top: 100px;
+    margin-bottom: 26px;
+}
+.about-cont.duo{
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+/**---6 steps---**/
+.steps {
+    width:100%;
+    height:969px;
+    background: #ffffff;
+    margin-top: 2px;    
+}
+.steps-mid {
     display: inline-block;
-    float:right;
-    width:50%;
-    height:50%;
+    width:49%;
+    height:100%;
+    background: #ffffff;
+    margin: 0px 25.5%;
+     text-align:center;
+}
+.steps-header{    
+    display: block;
+    width: 100%;
+    height: 32%;
+    margin:auto;
+    background-image: url(img/aaa.png); background-repeat: no-repeat; background-position:center;
+
+}
+.tx1{
+  box-sizing: border-box;
+  padding-top:100px;
+  font-size: 30px;
+  font-family: "Roboto";
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+  line-height: 1.333;
+  text-align: center;
+}
+.tx2{
+    margin-top:40px;
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(183, 183, 183);
+  line-height: 1.667;
+  text-align: center;
 }
 
 
+.step{
+    display: inline-block;
+    width:32%;
+    height:32%;
+}
+
+.step.uno{ background-image: url(img/1.png); background-repeat: no-repeat;}
+.step.duo{ background-image: url(img/2.png); background-repeat: no-repeat;}
+.step.tre{ background-image: url(img/3.png); background-repeat: no-repeat;}
+.step.qua{ background-image: url(img/4.png); background-repeat: no-repeat;}
+.step.chi{ background-image: url(img/5.png); background-repeat: no-repeat;}
+.step.sey{ background-image: url(img/6.png); background-repeat: no-repeat;}
+
+.steptext1{ 
+    display: inline-block;  
+    margin-top:36%;
+    width:100%;
+    height:32%;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(70, 70, 70);
+    line-height: 1.333;
+    text-align: left;
+}
+
+
+
+.steptext2{ 
+    box-sizing: border-box;
+    display: inline-block;  
+    width:100%;
+    height:32%;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(183, 183, 183);
+    line-height: 1.5;
+    text-align: left;
+}
