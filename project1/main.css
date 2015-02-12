@@ -7,6 +7,7 @@ body{background: rgb(240, 240, 240);
     max-width:1920px;}
 @font-face{font-family: Socialico;	src: url(font/Socialico.ttf);}
 @font-face{font-family: Roboto; src: url(font/Roboto-Bold.ttf);}
+
 /**---HEADER---**/
 .header {
 	width:100%;
