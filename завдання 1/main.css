@@ -28,7 +28,7 @@ body{background: rgb(240, 240, 240);
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    margin:20px 0 0 20px;
+    margin-top:20px;
     color: rgb(255, 255, 255);
 }
 .header-button{/**menu**/
@@ -153,7 +153,7 @@ li span{
     text-align:center;
 }
 .steps-header{    
-    width: 40%;
+    width: 45%;
     height: 32%;
     box-sizing: border-box;
     padding-top: 80px;  
@@ -168,16 +168,25 @@ li span{
 }
 .step{
     display: inline-block;
-    width:32%;
-    height:32%;
-    text-align: left;
-    line-height: 1.5;
-    font-size: 16px;
+    width:31%;
+    height:31%;
+
+    margin:5px;
 }
 .step img{
     width:64px;
     height:64px;
-    margin-bottom:20px;
+    float: left;
+ 
+}
+.stepbot{
+    float:left;
+    width:100%;
+    height:215px;
+    margin-top:20px;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 16px;
 }
 .step span{ 
     font-size: 18px;
@@ -238,7 +247,7 @@ li span{
 .sl.right{
     float:right;
 }   
-
+/*why*/
 .why{
     height:510px;
     width:100%; 
@@ -284,12 +293,172 @@ li span{
 .why-cont p{ 
     margin-bottom:20px;
 }
+/*work*/
+.work{
+    height:790px;
+    width:100%; 
+    background: #ffffff;
+    text-align:center;
+}
+.work-block {
+    width:940px;
+    height:100%;
+}
+.work-block .work{
+    float: left;
+}
+.work.cont{
+    display: inline-block;
+    width: 25%;
+    height: 235px;   
+ } 
+.work.head{
+    display: inline-block;
+    width: 470px;
+    height: 235px;   
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-top: 65px;
+}     
+.work.head p{  
+  font-size: 48px;
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.25;
+}    
+.work.contbig{
+    display: inline-block;
+    width: 470px;
+    height: 320px;   
+  box-sizing: border-box;
+  padding-top: 50px;  
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: justify; 
+  overflow:auto; 
+}
+
+.work.contbig.duo{padding-left: 40px;}
+.work.contbig.one{padding-right: 40px;}
+
+/*inst*/
+.inst{
+    height:895px;
+    width:100%; 
+    background: #ffffff;
+    text-align:center;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+.inst-box{
+    width:940px;
+    height:100%;
+    background: #ffffff;
+}
+.inst-box .work{
+    float:right;
+}
+
+.inst-box .work.head{padding: 65px 0 0 0;}
+
+.comm{
+    height:865px;
+    width:100%;
+    background-color: rgb(250, 249, 249);
+}
+.comm-block{    
+    width:940px;
+    height:100%;
+    text-align: center;
+    }
+.comm-block .steps-header{
+    height:300px;
+    text-align: center;
+}
+.comm-block .step img{
+    display: inline-block;
+    float:left;
+    width:38px;
+    height:38px;    
+    margin-left:10px;
+}
+.hoho{
+    width:75%;
+    height:100%;    
+    float:right;
+    display: inline-block;
+    text-align:justify;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.footer{
+    height:338px;
+    width:100%;
+    background-color: rgb(20, 20, 20);
+}
+.footer-block{    
+    width:940px;
+    height:105px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+}
+.footer-block h2{
+    float:left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top:75px;
+    color: rgb(255, 255, 255);
+}
+.footer-block .header-button{/**menu**/
+    margin-top: 75px;
+}
+.footer-block li span{
+    color: rgb(71, 71, 71);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+   
+.footer-block.bot{
+    height:180px;
+    padding-top:53px;
+    line-height: 2;
+    }
 
 
-
-
-
-
-
-
+.header-butt{
+    display:inline-block;
+    float:left;
+    text-align: left;
+    line-height: 2.4;
+    color: rgb(71, 71, 71);
+    font-size: 16px; 
+}
+.header-butt li{    
+    display:block;
+    cursor:pointer;
+    margin-right: 30px;
+    color: rgb(71, 71, 71);
+}
+.header-butt li a{   
+    font-size: 16px;
+    color: rgb(71, 71, 71);
+}
+h5{   
+    text-decoration: underline; 
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+}
+.copy{
+    float: right;
+    text-align: right;
+}
+.copy p{
+    line-height: 1.5;
+    color: rgb(53, 52, 52);
+    font-size: 16px;
+}
 
